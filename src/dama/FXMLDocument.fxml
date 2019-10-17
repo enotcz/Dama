@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="shashki1.FXMLDocumentController">
+   <children>
+      <Pane fx:id="pole" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #555555;" />
+      <ListView fx:id="lvChat" layoutX="406.0" layoutY="58.0" prefHeight="278.0" prefWidth="189.0" />
+      <TextField fx:id="tfText" layoutX="406.0" layoutY="344.0" prefHeight="25.0" prefWidth="119.0" />
+      <Button layoutX="529.0" layoutY="344.0" mnemonicParsing="false" onAction="#bSend" prefHeight="25.0" prefWidth="67.0" text="Send" />
+      <Label fx:id="textPlayer" layoutX="406.0" layoutY="6.0" prefHeight="17.0" prefWidth="183.0" />
+      <Label fx:id="textNowGo" layoutX="409.0" layoutY="35.0" prefHeight="17.0" prefWidth="183.0" />
+   </children>
+</Pane>
